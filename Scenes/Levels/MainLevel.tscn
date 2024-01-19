@@ -1425,6 +1425,3 @@ layer_4/tile_data = PackedInt32Array(720927, 393217, 36, 655391, 393217, 34, 589
 [node name="Player" type="Node2D" parent="."]
 
 [node name="Interacible" type="Node2D" parent="."]
-
-[node name="Player2" parent="." instance=ExtResource("4_ivy8w")]
-position = Vector2(472, 200)
