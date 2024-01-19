@@ -1,4 +1,4 @@
-[gd_scene load_steps=8 format=3 uid="uid://o2s6d7g7imqh"]
+[gd_scene load_steps=8 format=3 uid="uid://l3bqg8ayjxor"]
 
 [ext_resource type="Texture2D" uid="uid://2ohv6dscxty0" path="res://Scenes/Levels/Sprites/Placeholder/ts_outerworld.png" id="1_egs6f"]
 [ext_resource type="Texture2D" uid="uid://dwxnd57wv5rqw" path="res://Scenes/Levels/Sprites/Placeholder/ts_interior.png" id="2_urnj4"]
