@@ -1,8 +1,9 @@
-[gd_scene load_steps=8 format=3 uid="uid://l3bqg8ayjxor"]
+[gd_scene load_steps=9 format=3 uid="uid://l3bqg8ayjxor"]
 
 [ext_resource type="Texture2D" uid="uid://2ohv6dscxty0" path="res://Scenes/Levels/Sprites/Placeholder/ts_outerworld.png" id="1_egs6f"]
 [ext_resource type="Texture2D" uid="uid://dwxnd57wv5rqw" path="res://Scenes/Levels/Sprites/Placeholder/ts_interior.png" id="2_urnj4"]
 [ext_resource type="Texture2D" uid="uid://d4djxv30i1yb8" path="res://Scenes/Levels/Sprites/Placeholder/ts_jap.png" id="3_3umjv"]
+[ext_resource type="PackedScene" uid="uid://dhjahduqke6r7" path="res://Character/player.tscn" id="4_ivy8w"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_3wxo1"]
 texture = ExtResource("1_egs6f")
@@ -687,3 +688,6 @@ layer_4/tile_data = PackedInt32Array(720927, 393217, 36, 655391, 393217, 34, 589
 [node name="Player" type="Node2D" parent="."]
 
 [node name="Interacible" type="Node2D" parent="."]
+
+[node name="Player2" parent="." instance=ExtResource("4_ivy8w")]
+position = Vector2(472, 200)
