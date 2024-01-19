@@ -1,0 +1,21 @@
+[gd_scene load_steps=4 format=3 uid="uid://blg5jw2uydwnv"]
+
+[ext_resource type="Script" path="res://Object/Tree/Scripts/Three.gd" id="1_7wpns"]
+[ext_resource type="Texture2D" uid="uid://c8r24d8w7rtov" path="res://icon.svg" id="1_13o7x"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ggt4t"]
+size = Vector2(13.8978, 14.981)
+
+[node name="Three" type="StaticBody2D"]
+collision_layer = 2
+script = ExtResource("1_7wpns")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+self_modulate = Color(0.2, 1, 0.286275, 1)
+scale = Vector2(0.123158, 0.123158)
+texture = ExtResource("1_13o7x")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(3.57628e-07, 0)
+scale = Vector2(1.15126, 1.06802)
+shape = SubResource("RectangleShape2D_ggt4t")
